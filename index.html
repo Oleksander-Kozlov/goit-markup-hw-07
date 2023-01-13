@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    
 
     <!-- Шапка -->
     <header class="page-header">
@@ -31,7 +32,9 @@
           <a href="./index.html" class="logo">
             <span class="logo part">WEB</span>STUDIO</a
           >
+          
           <ul class="site-nav list">
+            
             <li class="item">
               <a href="./index.html" class="link current">Studio</a>
             </li>
@@ -42,6 +45,7 @@
               <a href="./contacts.html" class="link">Contacts</a>
             </li>
           </ul>
+
         </nav class="main-nav">
         <ul class="auth-nav list">
           <li class="item">
@@ -53,6 +57,39 @@
             <a href="tel:+11(000)1111111" class="link">+11 (000) 111-11-11</a>
           </li>
         </ul>
+        <button type="button" 
+              class="burg-menu-btn js-open-menu" 
+              aria-expended="false"
+              aria-controls="menu-conteiner"
+             
+              >
+              <svg 
+              aria-label="перемикач мобільного меню"
+              class="icons-burg-menu" >
+                
+                <use class="icon-menu" href="./images/icons.svg#burger"></use>
+                <use class="icon-close"  href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <div class="menu-conteiner js-menu-container" id="menu-conteiner">
+              <button js-close-menu class="button-modal js-close-menu">
+          <svg class="icon-modal">
+            <use href="./images/icons.svg#icon-close"> </use>
+          </svg>
+        </button>
+        контент меню
+        <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="link current">Studio</a>
+            </li>
+            <li class="item">
+              <a href="./Portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li class="item">
+              <a href="./contacts.html" class="link">Contacts</a>
+            </li>
+          </ul>
+            </div>
       </div>
     </header>
 
@@ -471,8 +508,7 @@
         <textarea class="coment-area" name="user_coment" rows="7" placeholder="Text input"></textarea></div>
         
         <div class=" checkbox">
-        
-        <label class="checkbox-label">
+         <label class="checkbox-label">
          <input class="checkbox-input" name="user_agreement" type="checkbox">
          <svg class="icon-checkbox">
             <use class="icon-checkbox-done" href="./images/icons.svg#icon-galo4ka"></use>
@@ -485,14 +521,13 @@
         </div>
 <div class="form-field btn">
         <button class="button send" type="submit">Send</button>
- </div>
-
-        
+ </div>        
         </form>
        
       </div>
     </div>
-
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
+   
   </body>
 </html>
