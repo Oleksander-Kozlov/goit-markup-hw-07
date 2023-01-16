@@ -377,7 +377,7 @@ body {
     padding-bottom: 192px;
     /* Mobile screen <=428px */
     background-image: linear-gradient(to right, rgba(24, 22, 22, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/hero/bg-img-mob/bg-img-mob@1x.jpg);
+        url(../images/hero/bg-img/bg-img-mob@1x.jpg);
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -386,7 +386,7 @@ body {
 (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(to right, rgba(24, 22, 22, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero/bg-img-mob/bg-img-mob@2x.jpg);
+            url(../images/hero/bg-img/bg-img-mob@2x.jpg);
     }
 }
 
@@ -394,43 +394,27 @@ body {
 @media screen and (min-width:429px) {
     .hero {
         background-image: linear-gradient(to right, rgba(24, 22, 22, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero/tab/bg-img-tab@1x.jpg);
+            url(../images/hero/bg-img/bg-img-tab@1x.jpg);
     }
 }
 
-@media screen and (min-width:429px) and (min-device-pixel-ratio: 2),
+@media screen and (min-device-pixel-ratio: 2),
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(to right, rgba(24, 22, 22, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero/tab/bg-img-tab@2x.jpg);
+            url(../images/hero/bg-img/bg-img-tab@2x.jpg);
     }
 }
 
-/* screen >428px */
-@media screen and (min-width:429px) {
-    .hero {
-        background-image: linear-gradient(to right, rgba(24, 22, 22, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero/tab/bg-img-tab@1x.jpg);
-    }
-}
 
-@media screen and (min-width:429px) and (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(to right, rgba(24, 22, 22, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero/tab/bg-img-tab@2x.jpg);
-    }
-}
 
 /* screen >768px */
 @media screen and (min-width:769px) {
     .hero {
         background-image: linear-gradient(to right, rgba(24, 22, 22, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero/desk/bg-img-desk@1.jpg);
+            url(../images/hero/bg-img/bg-img-desk@1x.jpg);
     }
 }
 
@@ -440,7 +424,7 @@ body {
 (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(to right, rgba(24, 22, 22, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero/desk/bg-img-desk@2x.jpg);
+            url(../images/hero/bg-img/bg-img-desk@2x.jpg);
     }
 }
 
